@@ -1,0 +1,11 @@
+fatal: unsafe repository ('/workspace/svo_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src' is owned by someone else)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /workspace/svo_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src
+CMake Error at /workspace/svo_ws/build/dbow2_catkin/dbow2_src-prefix/tmp/dbow2_src-gitupdate.cmake:10 (message):
+  Failed to get the hash for HEAD
+
+
+make[2]: *** [CMakeFiles/dbow2_src.dir/build.make:96: dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-update] Error 1
+make[1]: *** [CMakeFiles/Makefile2:306: CMakeFiles/dbow2_src.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
